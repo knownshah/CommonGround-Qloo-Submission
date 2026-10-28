@@ -1,0 +1,417 @@
+{
+  "mixed-domain": {
+    "id": "mixed-domain",
+    "title": "Three people, different tastes",
+    "source": "recorded",
+    "evidenceKind": "synthetic",
+    "location": "New York, NY",
+    "participants": [
+      {
+        "id": "p1",
+        "label": "Participant A",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "name": "John Wick (2014)",
+          "type": "film"
+        }
+      },
+      {
+        "id": "p2",
+        "label": "Participant B",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000102",
+          "name": "Nina Simone",
+          "type": "artist"
+        }
+      },
+      {
+        "id": "p3",
+        "label": "Participant C",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000103",
+          "name": "Stardew Valley",
+          "type": "game"
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "name": "Brooklyn Bridge",
+        "affinities": [
+          0.81,
+          0.71,
+          0.82
+        ],
+        "contributions": [
+          {
+            "seedId": "00000000-0000-4000-8000-000000000101",
+            "score": 0.25
+          },
+          {
+            "seedId": "00000000-0000-4000-8000-000000000102",
+            "score": 0.35
+          },
+          {
+            "seedId": "00000000-0000-4000-8000-000000000103",
+            "score": 0.4
+          }
+        ]
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "name": "Top of The Rock",
+        "affinities": [
+          0.93,
+          0.13,
+          0.94
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "name": "Empire State Building",
+        "affinities": [
+          0.62,
+          0.24,
+          0.61
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000004",
+        "name": "One World Trade Center",
+        "affinities": [
+          0.23,
+          0.95,
+          0.21
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "name": "Statue of Liberty",
+        "affinities": [
+          0.41,
+          0.83,
+          0.43
+        ],
+        "contributions": []
+      }
+    ],
+    "sourceRefs": [
+      "synthetic fixture; no provider response data"
+    ],
+    "warnings": [
+      "Synthetic demonstration only: all identifiers, affinities and contribution scores are invented, not Qloo responses.",
+      "Ranks are relative to this shortlist. They do not predict enjoyment.",
+      "Price, hours, accessibility and availability are unverified.",
+      "Small affinity gaps may not be meaningful."
+    ],
+    "recordedAt": "synthetic fixture (no provider request)"
+  },
+  "two-to-one": {
+    "id": "two-to-one",
+    "title": "Two alike, one different",
+    "source": "recorded",
+    "evidenceKind": "synthetic",
+    "location": "New York, NY",
+    "participants": [
+      {
+        "id": "p1",
+        "label": "Participant A",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "name": "John Wick (2014)",
+          "type": "film"
+        }
+      },
+      {
+        "id": "p2",
+        "label": "Participant B",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "name": "John Wick (2014)",
+          "type": "film"
+        }
+      },
+      {
+        "id": "p3",
+        "label": "Participant C",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000103",
+          "name": "Lady Bird",
+          "type": "film"
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "id": "00000000-0000-4000-8000-000000000011",
+        "name": "One World Trade Center",
+        "affinities": [
+          0.91,
+          0.92,
+          0.12
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000012",
+        "name": "Bay Terrace",
+        "affinities": [
+          0.62,
+          0.63,
+          0.64
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000013",
+        "name": "Little Italy",
+        "affinities": [
+          0.82,
+          0.83,
+          0.23
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000014",
+        "name": "Central Park",
+        "affinities": [
+          0.51,
+          0.52,
+          0.94
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000015",
+        "name": "Harbour Walk",
+        "affinities": [
+          0.42,
+          0.43,
+          0.83
+        ],
+        "contributions": []
+      }
+    ],
+    "sourceRefs": [
+      "synthetic fixture; no provider response data"
+    ],
+    "warnings": [
+      "Synthetic demonstration only: all identifiers, affinities and contribution scores are invented, not Qloo responses.",
+      "Ranks are relative to this shortlist. They do not predict enjoyment.",
+      "Price, hours, accessibility and availability are unverified.",
+      "Small affinity gaps may not be meaningful."
+    ],
+    "recordedAt": "synthetic fixture (no provider request)"
+  },
+  "movie-night": {
+    "id": "movie-night",
+    "title": "One movie, different tastes",
+    "source": "recorded",
+    "evidenceKind": "synthetic",
+    "location": "Movie night",
+    "participants": [
+      {
+        "id": "p1",
+        "label": "Participant A",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "name": "John Wick (2014)",
+          "type": "film"
+        }
+      },
+      {
+        "id": "p2",
+        "label": "Participant B",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000102",
+          "name": "Nina Simone",
+          "type": "artist"
+        }
+      },
+      {
+        "id": "p3",
+        "label": "Participant C",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000103",
+          "name": "Stardew Valley",
+          "type": "game"
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "id": "00000000-0000-4000-8000-000000000021",
+        "name": "The Imaginary Expedition",
+        "affinities": [
+          0.9,
+          0.1,
+          0.4
+        ],
+        "contributions": [],
+        "category": "movie"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000022",
+        "name": "City of Paper",
+        "affinities": [
+          0.7,
+          0.6,
+          0.7
+        ],
+        "contributions": [],
+        "category": "movie"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000023",
+        "name": "A Quiet Orbit",
+        "affinities": [
+          0.2,
+          0.9,
+          0.3
+        ],
+        "contributions": [],
+        "category": "movie"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000024",
+        "name": "Summer on Mars",
+        "affinities": [
+          0.3,
+          0.4,
+          0.9
+        ],
+        "contributions": [],
+        "category": "movie"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000025",
+        "name": "The Last Map",
+        "affinities": [
+          0.6,
+          0.8,
+          0.2
+        ],
+        "contributions": [],
+        "category": "movie"
+      }
+    ],
+    "sourceRefs": [
+      "synthetic fixture; no provider response data"
+    ],
+    "warnings": [
+      "Synthetic demonstration only: all identifiers, affinities and contribution scores are invented, not Qloo responses.",
+      "Ranks are relative to this shortlist. They do not predict enjoyment.",
+      "Price, hours, accessibility and availability are unverified.",
+      "Small affinity gaps may not be meaningful.",
+      "Streaming availability, subscription costs, runtime, language and age suitability are not verified. Check before watching."
+    ],
+    "outingType": "movies",
+    "locationId": null,
+    "recordedAt": "synthetic fixture (no provider request)"
+  },
+  "sightseeing": {
+    "id": "sightseeing",
+    "title": "Three tastes, one day out",
+    "source": "recorded",
+    "evidenceKind": "synthetic",
+    "location": "New York, NY",
+    "participants": [
+      {
+        "id": "p1",
+        "label": "Participant A",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "name": "John Wick (2014)",
+          "type": "film"
+        }
+      },
+      {
+        "id": "p2",
+        "label": "Participant B",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000102",
+          "name": "Lady Bird",
+          "type": "film"
+        }
+      },
+      {
+        "id": "p3",
+        "label": "Participant C",
+        "seed": {
+          "id": "00000000-0000-4000-8000-000000000103",
+          "name": "Dune",
+          "type": "film"
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "id": "00000000-0000-4000-8000-000000000031",
+        "name": "One World Trade Center",
+        "affinities": [
+          0.81,
+          0.92,
+          0.73
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000032",
+        "name": "Statue of Liberty",
+        "affinities": [
+          0.72,
+          0.83,
+          0.94
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000033",
+        "name": "Brooklyn Bridge",
+        "affinities": [
+          0.93,
+          0.24,
+          0.45
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000034",
+        "name": "Bay Terrace",
+        "affinities": [
+          0.64,
+          0.75,
+          0.86
+        ],
+        "contributions": []
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000035",
+        "name": "Top of The Rock",
+        "affinities": [
+          0.55,
+          0.66,
+          0.67
+        ],
+        "contributions": []
+      }
+    ],
+    "sourceRefs": [
+      "synthetic fixture; no provider response data"
+    ],
+    "warnings": [
+      "Synthetic demonstration only: all identifiers, affinities and contribution scores are invented, not Qloo responses.",
+      "Ranks are relative to this shortlist. They do not predict enjoyment.",
+      "Price, hours, accessibility and availability are unverified.",
+      "Small affinity gaps may not be meaningful."
+    ],
+    "outingType": "sightseeing",
+    "locationId": "00000000-0000-4000-8000-000000000099",
+    "recordedAt": "synthetic fixture (no provider request)"
+  }
+}

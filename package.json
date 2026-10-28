@@ -1,0 +1,21 @@
+{
+  "name": "commonground-qloo-hackathon",
+  "version": "1.0.0",
+  "description": "A Qloo-powered group decision app for finding shared cultural choices.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env --env-file=qloo-endpoint.env src/server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@qloo/qloo-harness": "0.1.26",
+    "zod": "4.6.6"
+  },
+  "overrides": {
+    "undici": "8.12.3",
+    "brace-expansion": "5.0.12"
+  }
+}

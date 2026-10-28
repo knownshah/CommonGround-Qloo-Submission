@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CommonGround turns a group's different tastes into options everyone can say yes to, using cultural evidence from Qloo, visible trade-offs and a human final say.">
+  <title>CommonGround — Find your shared plan</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/showcase.css">
+  <meta name="theme-color" content="#151618">
+  <link rel="preload" href="/assets/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <a id="skip-link" class="skip-link" href="#page-title">Skip to the main content</a>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="CommonGround home"><svg class="brand-symbol" viewBox="0 0 32 32" aria-hidden="true"><circle cx="12" cy="16" r="9"/><circle cx="21" cy="16" r="9"/></svg>CommonGround</a>
+    <div class="header-links"><a href="#how-it-works" class="nav-story">How it works</a><a href="#agents" class="nav-demo nav-mcp">Explore MCP <span aria-hidden="true">↗</span></a><button id="start-demo" class="nav-demo" type="button">Try the demo <span aria-hidden="true">↗</span></button></div>
+    <span class="demo-badge"><span class="status-dot"></span><span id="evidence-mode">Recorded demo</span></span>
+  </header>
+  <div class="page">
+    <div id="home-main" class="home-main" role="main">
+    <section id="welcome" class="welcome cinematic-home" aria-labelledby="page-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="welcome-intro hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Cultural evidence · Human agreement</p>
+        <h1 id="page-title" tabindex="-1">Different tastes.<br><em>One shared plan.</em></h1>
+        <div class="hero-aside"><p class="hero-description">Bring a favorite each: a film, an artist, a game. Qloo finds where your tastes meet. CommonGround shows the trade-offs, and your group decides.</p>
+        <div class="welcome-actions"><button id="start-plan" type="button" disabled>Start your plan <span aria-hidden="true">→</span></button><button id="hero-demo" class="secondary-action" type="button">Try the demo</button></div>
+        <p id="live-availability" class="helper">2–8 people · No account needed</p>
+        <a class="watch-film" href="#ad-root">Watch the 27-second film <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div id="ad-root" class="ad-root" aria-label="CommonGround product film, recorded Qloo evidence with scripted responses"><p class="story-unavailable">Loading the film…</p></div>
+    </section>
+    <section id="welcome-coda" class="welcome-coda" aria-label="Why CommonGround and how it works">
+      <section class="proof" id="why-qloo" aria-labelledby="proof-title">
+        <h2 id="proof-title" class="sr-only">Why CommonGround</h2>
+        <article data-reveal><span class="proof-icon" aria-hidden="true">01</span><h3>Taste across worlds</h3><p>A film, an artist and a game can point to the same place. Qloo connects them.</p></article>
+        <article data-reveal><span class="proof-icon" aria-hidden="true">02</span><h3>Same options, every person</h3><p>Everyone is ranked against one shortlist. No averaged scores pretending to be satisfaction.</p></article>
+        <article data-reveal><span class="proof-icon" aria-hidden="true">03</span><h3>Evidence you can inspect</h3><p>See which taste pulled an option in, and who it leaves behind.</p></article>
+        <article data-reveal><span class="proof-icon" aria-hidden="true">04</span><h3>A human decision</h3><p>A suggestion is not an agreement. Anyone can rule an option out.</p></article>
+      </section>
+      <section class="bridge-section" id="taste-bridge" aria-labelledby="bridge-title" data-reveal>
+        <div class="section-head"><p class="eyebrow">Try it · Real Qloo evidence</p><h2 id="bridge-title">See who each place <em>leaves behind.</em></h2>
+        <p>A film, an artist and a game, compared across the same five New York places. Switch the rule. Rule a place out. Watch the proposal change.</p></div>
+        <div id="bridge-root" class="bridge-root"><p class="story-unavailable">Loading the comparison…</p></div>
+      </section>
+      <section class="steps" id="how-it-works" aria-labelledby="steps-title" data-reveal>
+        <div class="section-head"><p class="eyebrow">How it works</p><h2 id="steps-title">Three steps from <em>different</em> to decided.</h2></div>
+        <ol class="steps-list">
+          <li><span>01</span><strong>Start with what you love.</strong><small>One film, artist, public figure or game per person. Different tastes welcome.</small></li>
+          <li><span>02</span><strong>Make the trade-offs visible.</strong><small>Qloo connects cultural tastes. CommonGround ranks the same options for each person.</small></li>
+          <li><span>03</span><strong>Suggestions. Then agreement.</strong><small>Rule an option out, reconsider, and let every person respond. Your group gets the final say.</small></li>
+        </ol>
+      </section>
+      <section class="agents" id="agents" aria-labelledby="agents-title" data-reveal>
+        <div class="agents-copy"><p class="eyebrow">For your AI agent</p><h2 id="agents-title">Bring your agent <em>to the table.</em></h2>
+        <p>Your assistant can resolve everyone’s favorites, compare the group and bring proposals, trade-offs and revisions back into your conversation through MCP. Open the app whenever you want the full comparison or each person’s explicit response.</p>
+        <p class="agents-status"><span class="status-dot" aria-hidden="true"></span>Local and opt-in today. Public hosting is not available yet.</p></div>
+        <div class="agents-panel">
+          <div id="agent-exchange" class="exchange" aria-label="Example agent conversation built from recorded evidence"><p class="story-unavailable">Loading the example…</p></div>
+          <ul class="tool-list">
+            <li><code>resolve_input</code><span>Match each favorite to an exact Qloo entity and confirm ambiguous ones.</span></li>
+            <li><code>compare_group</code><span>Bring the proposal, per-person ranks and alternatives into your conversation.</span></li>
+            <li><code>reconsider_exclusion</code><span>Apply one person’s explicit exclusion and return a revised proposal. It never accepts for anyone.</span></li>
+          </ul>
+          <div class="setup" id="agent-setup">
+            <div class="setup-tabs" role="tablist" aria-label="Your shell">
+              <button type="button" role="tab" id="tab-ps" aria-selected="true" aria-controls="setup-ps" data-shell="ps">PowerShell</button>
+              <button type="button" role="tab" id="tab-sh" aria-selected="false" aria-controls="setup-sh" data-shell="sh" tabindex="-1">macOS / Linux</button>
+            </div>
+            <div class="setup-pane" role="tabpanel" id="setup-ps" aria-labelledby="tab-ps"><pre class="agents-code" tabindex="0"><code>$env:COMMONGROUND_MCP = '1'
+npm start</code></pre><button type="button" class="copy-btn" data-copy="setup-ps">Copy</button></div>
+            <div class="setup-pane" role="tabpanel" id="setup-sh" aria-labelledby="tab-sh" hidden><pre class="agents-code" tabindex="0"><code>COMMONGROUND_MCP=1 npm start</code></pre><button type="button" class="copy-btn" data-copy="setup-sh">Copy</button></div>
+            <p class="setup-step">Then add this server in your agent’s MCP settings. For Codex:</p>
+            <div class="setup-pane" id="setup-cfg"><pre class="agents-code" tabindex="0"><code>[mcp_servers.commonground]
+url = "http://127.0.0.1:3000/mcp"
+tool_timeout_sec = 180</code></pre><button type="button" class="copy-btn" data-copy="setup-cfg">Copy</button></div>
+          </div>
+          <p class="agents-note">Get results in your conversation; the app link is optional. Agents never accept for people. Verified locally with a Codex host; other hosts use the same URL. Full guide: <code>docs/mcp-local.md</code> in the repository.</p>
+        </div>
+      </section>
+      <section class="walkthrough" id="walkthrough" aria-labelledby="walkthrough-title" data-reveal>
+        <div class="section-head"><p class="eyebrow">See it in action</p><h2 id="walkthrough-title">A full recorded <em>walkthrough.</em></h2>
+        <p>One decision, start to finish: a decline, a separate rule-out, a revised proposal and three explicit responses.</p></div>
+        <div id="visual-story" class="visual-story" aria-label="CommonGround recorded walkthrough, recorded evidence with scripted responses"><p class="story-unavailable">Loading the walkthrough…</p></div>
+      </section>
+    </section>
+    </div>
+    <div id="decision-controls" class="mode-strip" role="region" aria-label="Experience mode" hidden><h1 class="sr-only">CommonGround group decision</h1><button id="start-over" class="text-button" type="button">← Start screen</button><div class="mode-tabs" aria-label="Experience mode"><button id="mode-recorded" class="mode-active" type="button" aria-pressed="true">Recorded demo</button><button id="mode-live" disabled type="button" aria-pressed="false">Live search</button></div><p id="mode-note">Real Qloo evidence · Synthetic participants · No fresh API calls</p></div>
+    <nav id="journey-nav" class="journey-nav" aria-label="Group decision stages" hidden>
+      <a id="group-stage-link" href="#group-stage"><span aria-hidden="true">01</span><strong>Your group</strong><small>Different starting points</small></a>
+      <a href="#options-stage"><span aria-hidden="true">02</span><strong>Shared options</strong><small>Understand the trade-offs</small></a>
+      <a href="#agreement-stage"><span aria-hidden="true">03</span><strong>Agree</strong><small>Everyone gets a say</small></a>
+    </nav>
+    <p id="announcements" class="sr-only" role="status" aria-live="polite"></p>
+    <div id="error-banner" role="alert" hidden></div>
+    <section id="live-inputs" hidden tabindex="-1" aria-label="Your group and location"></section>
+    <main id="workspace" tabindex="-1" hidden><div class="loading">Getting the group together…</div></main>
+    <footer><span>CommonGround <span class="footer-dot" aria-hidden="true">·</span> Cultural evidence. Human agreement.</span><span>Built for the Qloo Agentic Hackathon</span></footer>
+  </div>
+</body>
+</html>
